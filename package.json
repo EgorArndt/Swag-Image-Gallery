@@ -3,14 +3,20 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "format": "prettier --write \"./**/*.{js,jsx,ts,tsx,json,css,scss,md}\""
   },
   "dependencies": {
+    "@supabase/supabase-js": "^1.33.1",
     "next": "latest",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^7.28.1",
+    "swr": "^1.2.2"
   },
   "devDependencies": {
+    "@faker-js/faker": "^6.1.1",
+    "@tailwindcss/aspect-ratio": "^0.4.0",
     "@types/node": "17.0.4",
     "@types/react": "17.0.38",
     "autoprefixer": "^10.4.0",
